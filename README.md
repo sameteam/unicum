@@ -1,3 +1,12 @@
+
+### Unicum
+
+A unique key generator based on shardjs.
+
+#Ignore the following because I need to update this document
+
+---------------------------------------------------------------------------
+
 ## Shardjs
 
 A module to manage keys along a shard of up to 3844 nodes inspired 
