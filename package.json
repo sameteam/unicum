@@ -1,7 +1,7 @@
 {
-    "name": "Unicum",
+    "name": "unicum",
     "description": "A module for unique key generation.",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "author": "Francesco Sullo <francesco@sameteam.co>",
     "contributors": [],    
     "repository": {
@@ -10,8 +10,7 @@
     },
     "keywords": ["shard", "sharding", "redis", "key-value", "database"],
     "directories": { 
-    	"lib": "./lib", 
-    	"conf": "./conf"
+    	"lib": "."
     },
     "engines": { "node": ">= 0.4" },
     "dependencies": {
@@ -23,5 +22,6 @@
             "type": "MIT",
             "url" : "http://www.opensource.org/licenses/mit-license.php"
         }
-    ]
+    ],
+    "main": "./index.js"
 }
