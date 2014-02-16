@@ -1,7 +1,7 @@
 {
     "name": "unicum",
     "description": "A module for unique key generation.",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "author": "Francesco Sullo <francesco@sameteam.co>",
     "contributors": [],    
     "repository": {
@@ -14,7 +14,6 @@
     },
     "engines": { "node": ">= 0.4" },
     "dependencies": {
-        "class-js": "0.0.2",
 		"redis": "*"
     },
     "licenses": [
