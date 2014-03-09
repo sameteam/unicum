@@ -40,6 +40,9 @@ exports.config = {
 
 	subKeys : {
 		n : "name",
-		c : "city"
+		c : "city",
+		d: "data",
+		e: "email",
+		w: "website"
 	}
 };
