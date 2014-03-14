@@ -1,6 +1,6 @@
 var should = require('should');
 var unicum = require("./lib/unicum")
-	.init(require('./conf/unicum-config').config);
+	.init(require('./conf/unicum-config'));
 
 
 unicum.generate(1,function (val) {

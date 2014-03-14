@@ -3,7 +3,7 @@
  * For simplicity there are four local instances. 
  */
 
-exports.config = {
+module.exports = {
 
 	redis : {
 		host : "127.0.0.1",
